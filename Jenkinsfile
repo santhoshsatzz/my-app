@@ -1,5 +1,5 @@
 node{
-   stage('SCM Checkout'){
+   stage('SCM Checkout 1'){
      git 'https://github.com/santhoshsatzz/my-app.git'
    }
    stage('Compile-Package'){
